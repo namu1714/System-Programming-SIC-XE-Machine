@@ -1,16 +1,16 @@
-#SIC/XE MACHINE
+# SIC/XE MACHINE
 shell prompt / 
 1MByte memory space/ 
 assembler /
 linking loader/
 program run
 
-##USAGE
+## USAGE
 $make
 $./20171101.out
 sicsim>
 
-##COMMAND
+## COMMAND
 h[elp]
 d[ir]
 q[uit]
@@ -29,17 +29,17 @@ loader filenames
 bp [clear][address]
 run
 
-##Assemble Function
+## Assemble Function
 - command: assemble filename
 - type of source file must be .asm
 - create .lst file and .obj file
 
-##Linking Loader
+## Linking Loader
 - command: loader filenames
 - input: object file(.obj)
 - link object files and load into memory
 
-##Program Run
+## Program Run
 - command: run
 - program starts at current PC
 - program stops at break point(bp)
